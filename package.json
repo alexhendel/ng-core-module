@@ -2,6 +2,10 @@
   "name": "ng-core-module",
   "version": "1.0.0",
   "description": "Schematics for a core and shared module.",
+  "repository": {
+    "url": "https://github.com/alexhendel/ng-core-module"
+  },
+  "homepage": "https://github.com/alexhendel/ng-core-module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
@@ -11,7 +15,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "alexander.hendel@gmail.com",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
