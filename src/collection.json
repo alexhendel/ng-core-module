@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "core": {
+      "description": "Schematics for a core and shared module.",
+      "factory": "./core/index#coreModule",
+      "schema": "./core/schema.json"
+    },
+    "ng-add": {
+      "factory": "./ng-add/index",
+      "description": "Add schematic",
+      "schema": "./core/schema.json"
+    }
+  }
+}
